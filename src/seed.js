@@ -27,6 +27,6 @@ const menu = [
 
   console.log('Seed selesai.');
   console.log('   Admin    : admin@resto.com / admin123');
-  console.log('   Customer : budi@mail.com   / budi123');
+  console.log('   Customer : aldin@mail.com   / aldin123');
   await mongoose.connection.close();
 })();
