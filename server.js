@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 (async () => {
   await connectDB();
   const server = app.listen(PORT, () =>
-    console.log(`🚀 Server berjalan di http://localhost:${PORT}`)
+    console.log(`Server berjalan di http://localhost:${PORT}`)
   );
 
   const shutdown = async (signal) => {
